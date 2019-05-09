@@ -1,0 +1,70 @@
+<!DOCTYPE HTML>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="styles.css" /> <!-- links the html with the css -->
+    <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet"> <!-- link a font -->
+    <title>Ruchi Gupta</title>  <!-- sets the title of the tab -->
+    <div id="navbar">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#experience">Experiences</a> 
+        <a href="#contact">Contact Me<a> 
+    </div>
+    <div id="home">
+        <div class="home-text">Ruchi Gupta</div>
+        <img class="img2" src="http://cache.desktopnexus.com/thumbseg/2357/2357877-bigthumbnail.jpg"/>
+    </div>
+
+    <div id="about">
+         <div class="about-text">Hi! My name is _____ and I'm a ____ year ____ major at ______. I'm passionate about _____ and interested in pursuing _____ because _____.</div>
+
+    </div>
+
+    <div id="projects">
+        <div class="rectangle">
+            <img src="https://bs-uploads.toptal.io/blackfish-uploads/skill_page/content/logo_file/logo/5686/mobile-16aa317be666dc4aa190966ebec9f08b.png"/>
+            <br>
+            <div class="project-text">Project 1</div>
+        </div>
+        <div class="rectangle">
+            <img src="https://bs-uploads.toptal.io/blackfish-uploads/skill_page/content/logo_file/logo/5686/mobile-16aa317be666dc4aa190966ebec9f08b.png"/>
+            <br>
+            <div class="project-text">Project 2</div>
+        </div>
+        <div class="rectangle">
+            <img src="https://bs-uploads.toptal.io/blackfish-uploads/skill_page/content/logo_file/logo/5686/mobile-16aa317be666dc4aa190966ebec9f08b.png"/>
+            <br>
+            <div class="project-text">Project 3</div>
+        </div>
+        <div class="rectangle">
+            <img src="https://bs-uploads.toptal.io/blackfish-uploads/skill_page/content/logo_file/logo/5686/mobile-16aa317be666dc4aa190966ebec9f08b.png"/>
+            <br>
+            <div class="project-text">Project 4</div>
+        </div>
+    </div>
+
+    <div id="experience">
+    </div>
+    
+    <div id="contact">
+    </div>
+
+
+
+
+    <script>
+        window.onscroll = function() {myFunction()};
+
+        var navbar = document.getElementById("navbar");
+        var sticky = navbar.offsetTop;
+
+        function myFunction() {
+          if (window.pageYOffset >= sticky) {
+            navbar.classList.add("sticky")
+          } else {
+            navbar.classList.remove("sticky");
+          }
+        }
+    </script>
+
+</html>
