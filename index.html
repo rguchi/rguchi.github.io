@@ -1,70 +1,51 @@
-<!DOCTYPE HTML>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="styles.css" /> <!-- links the html with the css -->
-    <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet"> <!-- link a font -->
-    <title>Ruchi Gupta</title>  <!-- sets the title of the tab -->
-    <div id="navbar">
-        <a href="#home">Home</a>
-        <a href="#about">About</a>
-        <a href="#projects">Projects</a>
-        <a href="#experience">Experiences</a> 
-        <a href="#contact">Contact Me<a> 
-    </div>
-    <div id="home">
-        <div class="home-text">Ruchi Gupta</div>
-        <img class="img2" src="http://cache.desktopnexus.com/thumbseg/2357/2357877-bigthumbnail.jpg"/>
-    </div>
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
 
-    <div id="about">
-         <div class="about-text">Hi! My name is _____ and I'm a ____ year ____ major at ______. I'm passionate about _____ and interested in pursuing _____ because _____.</div>
+<head>
+  <meta charset="utf-8">
 
-    </div>
+  <img src="https://img.icons8.com/wired/32/000000/filled-message.png" align="right"/>
+  <img src="https://img.icons8.com/wired/32/000000/github.png" align="right"/>
+  <img src="https://img.icons8.com/wired/32/000000/linkedin.png" align="right"/>
 
-    <div id="projects">
-        <div class="rectangle">
-            <img src="https://bs-uploads.toptal.io/blackfish-uploads/skill_page/content/logo_file/logo/5686/mobile-16aa317be666dc4aa190966ebec9f08b.png"/>
-            <br>
-            <div class="project-text">Project 1</div>
-        </div>
-        <div class="rectangle">
-            <img src="https://bs-uploads.toptal.io/blackfish-uploads/skill_page/content/logo_file/logo/5686/mobile-16aa317be666dc4aa190966ebec9f08b.png"/>
-            <br>
-            <div class="project-text">Project 2</div>
-        </div>
-        <div class="rectangle">
-            <img src="https://bs-uploads.toptal.io/blackfish-uploads/skill_page/content/logo_file/logo/5686/mobile-16aa317be666dc4aa190966ebec9f08b.png"/>
-            <br>
-            <div class="project-text">Project 3</div>
-        </div>
-        <div class="rectangle">
-            <img src="https://bs-uploads.toptal.io/blackfish-uploads/skill_page/content/logo_file/logo/5686/mobile-16aa317be666dc4aa190966ebec9f08b.png"/>
-            <br>
-            <div class="project-text">Project 4</div>
-        </div>
-    </div>
+  <title>Ruchi Gupta Website</title>
+</head>
 
-    <div id="experience">
-    </div>
-    
-    <div id="contact">
-    </div>
+<body>
+  <table cellspacing = "20">
+    <tr>
+      <td>
+        <img src="images/circleruchi.png"alt="ruchi's profile picture" height = "200" width="200">
+      </td>
+      <td>
+        <h1>Ruchi Gupta</h1>
+        <p><em>UCSC Alumni</em></p>
+        <h3><strong>About Me:</strong></h3>
+        <p>I graduteed March 2020 with a degree in Computer Science and a minor in
+          Technological Inforamation Mamangment. My passion
+          lies in using tehcnology to create products/resources to help others.
+          I am a creative individual who tries to learn something new
+          everyday. I believe that I can only help others if I improve myself as well, along the way.
+        </p>
+
+  </table>
+
+
+  <p>To learn more about me, check out my <a href="Ruchi Gupta Resume.pdf"> Resume</a> here. </p>
+  <hr>
+  <a href="My Projects.html"><button>My Projects</button></a>
+  <a href="My Course Work.html"><button>My Course Work</button></a>
+  <h3>Hobbies</h3>
+    <ol>
+      <li>Exercise</li>
+      <li>Drawing</li>
+      <li>Painting</li>
+      <li>Photoshop</li>
+      <li>Photography</li>
+    </ol>
 
 
 
-
-    <script>
-        window.onscroll = function() {myFunction()};
-
-        var navbar = document.getElementById("navbar");
-        var sticky = navbar.offsetTop;
-
-        function myFunction() {
-          if (window.pageYOffset >= sticky) {
-            navbar.classList.add("sticky")
-          } else {
-            navbar.classList.remove("sticky");
-          }
-        }
-    </script>
+</body>
 
 </html>
