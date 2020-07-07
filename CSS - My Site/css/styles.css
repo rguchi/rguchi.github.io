@@ -1,0 +1,178 @@
+
+a {
+  color: #11999E;
+}
+
+nav {
+  background-color: #eaf6f6;
+  text-align: right;
+}
+
+.mybody {
+  background-color: #eaf6f6;
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+.myh1 {
+  color: #699cff;
+  margin-top: 0;
+  font-family: 'Sacramento',sans;
+  font-size: 5.625rem;
+  margin: 50px auto 0 auto;
+
+}
+.myh2 {
+  color: #699cff;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  font-weight: normal;
+
+}
+.myh3 {
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.myp {
+  line-height: 2;
+}
+
+.myhr {
+  border-style: dotted;
+  border-bottom: 0;
+  border-color:  lightgrey;
+  border-width: 5px;
+  width: 4%;
+  margin: 50px auto 50px auto;
+
+}
+
+/* top container */
+.top-container {
+  background-color: #eaf6f6;
+  padding-top: 100px;
+  position: relative;
+}
+
+.subtitle {
+  color: #699cff;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.5rem;
+  font-weight: normal;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 50px;
+  opacity: 0.5;
+}
+.bottom-cloud {
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+  opacity: 0.5;
+
+}
+
+/* middle container */
+
+.middle-container {
+  background-color: #f4f6ff;
+  padding: 100px;
+
+}
+.skill-row{
+  margin: 100px auto 100px auto;
+  width: 50%;
+  line-height: 2;
+  text-align: left;
+
+
+}
+.ruchi-image {
+  height: 200px;
+  width: 200px;
+  margin: 50px;
+
+}
+/* left image */
+.project-image {
+  width: 150px;
+  float: left;
+  margin-right: 30px;
+
+}
+/* right image */
+.work-image {
+  width: 150px;
+  float: right;
+  margin-left: 30px;
+
+}
+
+/* bottom conatiner */
+.bottom-container {
+  background-color: #eaf6f6;
+  padding-top: 50px;
+}
+
+/* project/expereice cards */
+.cards {
+    margin: 50px auto 50px auto;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: .25rem;
+    text-align: left;
+
+}
+
+.card-header {
+
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+
+}
+
+.card-body {
+    flex: 1 1 auto;
+    min-height: 1px;
+    padding: 1.25rem;
+}
+
+.custom-btn{
+  border-radius: 24px;
+  border: none;
+  color: #699cff;
+  background-color: #e1ebff;
+  width: fit-content;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1.25rem;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  padding: .5rem;
+  margin: 2% 2% 4%;
+}
+
+@media only screen and (max-width: 991px) {
+.dropdown {
+    position: absolute;
+    text-align: center;
+    top: 100%;
+    right: 0;
+    width: 100px;
+    padding: 10px;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,.2);
+    z-index: 1;
+  }
+}
